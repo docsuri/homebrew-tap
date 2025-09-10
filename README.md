@@ -1,18 +1,13 @@
 # Docsuri Tap
 
-## How do I install these formulae?
-
-`brew install docsuri/tap/<formula>`
-
-Or `brew tap docsuri/tap` and then `brew install <formula>`.
-
-Or, in a `brew bundle` `Brewfile`:
+## Add tap
 
 ```ruby
 tap "docsuri/tap"
-brew "<formula>"
 ```
 
-## Documentation
+## Fonts
 
-`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
+```ruby
+brew install --cask font-monoplex-kr
+```
